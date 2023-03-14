@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "AddCardServlet", urlPatterns = "/addcard")
-@MultipartConfig(location = "/home/otash/apps/library/upload")
+@MultipartConfig(location = "/home/baxtigul/apps/library/upload")
 public class AddCardServlet extends HttpServlet {
 
 

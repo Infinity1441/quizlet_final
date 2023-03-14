@@ -3,7 +3,7 @@
 <%@ page import="com.nooglers.dto.SolveQuestionDto" %>
 <%@ page import="com.nooglers.domains.test.Variant" %><%--
   Created by IntelliJ IDEA.
-  User: otash
+  User: baxtigul
   Date: 2/15/23
   Time: 1:10 PM
   To change this template use File | Settings | File Templates.

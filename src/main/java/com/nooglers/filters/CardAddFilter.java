@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebFilter(filterName = "CardAddFilter", value = "/addcard")
-//@MultipartConfig( location = "/home/otash/apps/library/upload" )
+//@MultipartConfig( location = "/home/baxtigul/apps/library/upload" )
 public class CardAddFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws ServletException, IOException {
         var request = (HttpServletRequest) req;

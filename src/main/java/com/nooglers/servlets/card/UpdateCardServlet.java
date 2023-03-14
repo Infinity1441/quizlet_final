@@ -15,7 +15,7 @@ import java.time.ZoneId;
 
 
 @WebServlet(name = "UpdateCardServlet", value = "/editcard")
-@MultipartConfig(location = "/home/otash/apps/library/uploads")
+@MultipartConfig(location = "/home/baxtigul/apps/library/uploads")
 public class UpdateCardServlet extends HttpServlet {
 
     @Override
